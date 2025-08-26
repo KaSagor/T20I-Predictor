@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.squad-box {
+    min-height: 150px;
+    border: 1px solid #dee2e6;
+    border-radius: .375rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-content: flex-start;
+}
+
+.player-tag {
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.player-tag .btn-close {
+    font-size: 0.75em;
+}
+
+.advantage-green {
+    color: #198754; /* Bootstrap success color */
+    font-weight: bold;
+}
+
+.advantage-red {
+    color: #dc3545; /* Bootstrap danger color */
+    font-weight: bold;
+}
+
+.advantage-neutral {
+    color: #6c757d; /* Bootstrap secondary color */
+}
+
+#predict-btn {
+    transition: transform 0.1s ease-in-out;
+}
+
+#predict-btn:active {
+    transform: scale(0.98);
+}
